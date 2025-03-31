@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Peemkay! 🎉</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fireworks/1.0.0/fireworks.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="birthday-card">
+            <h1 class="animate__animated animate__bounceIn">Happy Birthday Peemkay!</h1>
+            <div class="name-highlight animate__animated animate__fadeIn animate__delay-1s">
+                <span class="letter">P</span>
+                <span class="letter">E</span>
+                <span class="letter">E</span>
+                <span class="letter">M</span>
+                <span class="letter">K</span>
+                <span class="letter">A</span>
+                <span class="letter">Y</span>
+            </div>
+            <div class="cake">
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+            </div>
+            <div class="birthday-text animate__animated animate__fadeInUp">
+                <h2>April 1st, 2025</h2>
+                <p class="message">Here's to making your day as awesome as you are! 🎈</p>
+                <p class="special-message">May your code be bug-free and your commits be plenty! 🚀</p>
+            </div>
+            <div class="age-badge">
+                <span class="age-text">2025</span>
+            </div>
+            <div class="confetti-container"></div>
+            <div class="wishes-section">
+                <h3>Send Birthday Wishes to Peemkay! 🎈</h3>
+                <form id="wishForm" class="wish-form">
+                    <input type="text" id="senderName" placeholder="Your Name" required>
+                    <textarea id="wishMessage" placeholder="Write your wish..." required></textarea>
+                    <button type="submit" class="submit-wish">Send Wish ✨</button>
+                </form>
+                <div id="wishesList" class="wishes-list">
+                    <!-- Wishes will be displayed here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <canvas id="fireworks"></canvas>
+    <div class="floating-elements">
+        <span class="emoji">🎉</span>
+        <span class="emoji">🎈</span>
+        <span class="emoji">🎁</span>
+        <span class="emoji">🎂</span>
+        <span class="emoji">✨</span>
+    </div>
+    <div id="adminLogin" class="admin-login">
+        <button id="adminLoginBtn" class="admin-btn">Admin Login</button>
+    </div>
+    <!-- Admin Panel Modal -->
+    <div id="adminPanel" class="admin-panel">
+        <div class="admin-content">
+            <h2>Admin Panel</h2>
+            <div id="adminWishes" class="admin-wishes"></div>
+            <button id="adminLogoutBtn" class="admin-btn">Logout</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
